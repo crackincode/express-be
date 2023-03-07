@@ -1,0 +1,18 @@
+{
+  "name": "express-be",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "@emurgo/cardano-serialization-lib-nodejs": "^11.3.0",
+    "cbor": "^8.1.0",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "express": "^4.18.2",
+    "morgan": "~1.9.1",
+    "node-fetch": "^2.6.9"
+  }
+}
